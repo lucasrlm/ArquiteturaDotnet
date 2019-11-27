@@ -9,13 +9,14 @@ namespace Repositorio
         {
             get
             {
-                return this._contexto;
+                return _contexto;
             }
             set
             {
-                this._contexto = value;
+                _contexto = value;
             }
         }
+
         private TesteEntities _contexto;
 
         public RepositorioBase()
